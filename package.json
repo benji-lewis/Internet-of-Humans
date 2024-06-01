@@ -1,0 +1,22 @@
+{
+  "name": "internet-of-humans",
+  "version": "1.0.0",
+  "description": "A interconnected web of human sensors at hacker camps",
+  "main": "IoH.Functions/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjisoft/Internet-Of-Humans.git"
+  },
+  "author": "Ben Lewis",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/benjisoft/Internet-Of-Humans/issues"
+  },
+  "homepage": "https://github.com/benjisoft/Internet-Of-Humans#readme",
+  "devDependencies": {
+    "wrangler": "^3.58.0"
+  }
+}
