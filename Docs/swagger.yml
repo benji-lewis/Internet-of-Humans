@@ -1,0 +1,44 @@
+openapi: 3.0.0
+info:
+  title: Internet of Humans API
+  version: 1.0.0
+  license:
+    name: MIT License
+    url: https://github.com/benjisoft/Internet-of-Humans/blob/main/LICENSE.md
+servers:
+  - url: https://ioh.benjilewis.dev/emf24/api
+    description: EMF 2024 API
+paths:
+  /data:
+    get:
+      description: A summary of all the data collected
+      tags: [View]
+      responses:
+        '501':
+          description: Not Implemented
+  /data/[userId]: 
+    get: 
+      description: Retrieves the data for a specified user
+      tags: [View]
+      responses:
+        501: 
+          description: Not Implemented
+    post: 
+      description: Updates the data for a specified user
+      tags: [Contribute]
+      responses:
+        501: 
+          description: Not Implemented
+  /account: 
+    put: 
+      description: Creates a user account
+      tags: [Accounts]
+      responses:
+        501: 
+          description: Not Implemented
+    delete: 
+      description: Deletes a user account
+      tags: [Accounts]
+      responses:
+        501: 
+          description: Not Implemented
